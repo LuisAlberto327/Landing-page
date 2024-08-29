@@ -1,0 +1,238 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+  }
+  
+  .header{
+    display: flex;
+    background: #1F2937; /*dark blue*/
+    padding: 1em;
+    gap: 5em;
+    padding-right: 2em;
+  }
+  
+  .right-links{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 2em;
+    font-size: 1.125em; /*18px*/
+    color: #E5E7EB; /*grey*/
+    align-items: center;
+  }
+  
+  .left-links{
+    display: flex;
+    flex: .8;
+    justify-content: center;
+    font-size: 1.5em; /*24px*/
+    color: #F9FAF8; /*white*/
+    align-items: center;
+  }
+  
+  .hero{ /*parents: body*/
+    background: #1F2937; /*dark blue*/
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+  }
+  
+  .hero-left{ /*no font size in its parents*/
+    width: 30vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: .5em;
+  }
+  
+  .hero-header{ /*no font size in its parents*/
+    font-size: 3em; /*48px*/
+    color: #F9FAF8; /*white*/
+    font-weight: 900;
+  }
+  
+  .hero-secondary{ /*no font size in its parents*/
+    font-size: 1.125em; /*18px*/
+    color: #E5E7EB; /*grey*/
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-button{
+    display: flex;
+    align-items: center;
+    flex: .5;
+  }
+  
+  .sign-up{
+    background: #3882F6; /*skyblue*/
+    width: 6em;
+    height: 2em;
+    border-radius: .6em;
+    padding: .3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    border: none;
+  }
+  
+  .hero-right{ /*no font size in its parents*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    height: 20vw;
+  }
+  
+  .placeholder{ /*no font size in its parents*/
+    width: 32vw;
+    height: 13vw;
+    justify-content: right;
+    display: flex;
+    align-items: center;
+  }
+  
+  .truck{
+    width: 25vw;
+    height: auto;
+  }
+  
+  .info-container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-top{
+    display: flex;
+    justify-content: center;
+    color: #1F2937; /*dark blue*/
+    font-size: 2.25em; /*36px*/
+    font-weight: 600;
+    padding: 2vw;
+  }
+  
+  .info-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+  }
+  
+  .box{
+    display: flex;
+    flex-direction: column;
+    height: 20vw;
+    width: 13vw;
+  }
+  
+  .picture{
+    box-sizing: border-box;
+    width: 100%;
+    height: 13vw;
+    border: solid .4em/*6.4px*/ #3882F6 /*skyblue*/;
+    border-radius: 1em;
+  }
+  
+  .info{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: .5;
+    color: #1F2937; /*dark blue*/
+    font-weight: 600;
+    font-size: 1.25em; /*20px*/
+  }
+  
+  .quote-container{
+    background: #E5E7EB; /*grey*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .quote-author{
+    display: flex;
+    flex-direction: column;
+    width: 31vw;
+    padding: 2em; /*32px*/
+  }
+  
+  .quote{
+    font-size: 2.25em; /*36px*/
+    font-style: italic;
+    text-align: start;
+    font-weight: 0;
+    display: flex;
+    justify-content: center;
+    color: #1F2937; /*dark blue*/
+  }
+  
+  .author{
+    display: flex;
+    font-weight: 600;
+    justify-content: right;
+    font-size: 1.5em;/*24px*/
+    padding-right: 15%;
+    color: #1F2937; /*dark blue*/
+  }
+  
+  .sign-up-container{
+    display: flex;
+    justify-content: center;
+    padding: 3em; /*48px*/
+    flex-wrap: wrap;
+  }
+  
+  .call-container{
+    display: flex;
+    align-items: center;
+    background: #3882F6; /*skyblue*/
+    padding: 1.3em 5em; /*20.8px 80px */
+    width: 50vw;
+    justify-content: center;
+    gap: 14em; /*224px*/
+  }
+  
+  .call-left{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .call{
+    display: flex;
+    color: white;
+    font-size: 1.5em; /*24px*/
+  }
+  
+  .legend{
+    display: flex;
+    color: white;
+  }
+  
+  .call-right{
+    display: flex;
+    align-items: center;
+  }
+  
+  .signup-button{
+    background: #3882F6; /*skyblue*/
+    border: solid white .2em;
+    border-radius: .4em;
+    color: #F9FAF8; /*white*/
+    padding: .5em 3.5em;
+  }
+  
+  .copyright{
+    display: flex;
+    background: #1F2937; /*dark blue*/
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    color: #E5E7EB; /*grey*/
+  }
